@@ -1,3 +1,47 @@
+@import 'variables.css';
+
 * {
+    /*Reset default browser styles*/
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: var(--black);
+    margin: 40px 130px 40px 100px;
+}
+
+#navbar > nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    color: var(--white);
+}
+
+#navbar > nav > ul li {
+    display: inline-block;
+    list-style-type: none;
+    margin: 0px 30px;
+    font-size: 18px;
+}
+
+#navbar > nav > ul > li a{
+    text-decoration: none;
+    color: var(--white);
+}
+
+#navbar > nav button{
+    display: inline-block;
+    width: 132px;
+    height: 54px;
+    background-color: var(--primary);
+    border: 0px;
+    border-radius: 10px;
+    color: var(--black);
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 14px;
 }
