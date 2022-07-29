@@ -13,6 +13,8 @@ body {
     margin: 40px 130px 40px 100px;
 }
 
+/* navbar design desktop */
+
 #navbar > nav {
     display: flex;
     flex-direction: row;
@@ -44,4 +46,43 @@ body {
     font-size: 20px;
     font-weight: bold;
     margin-left: 14px;
+}
+
+/* Hero section design desktop */
+
+#landing {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+#hero-section {
+    color: var(--white);
+}
+
+#hero-section p {
+    color: var(--primary);
+}
+
+#hero-section h1{
+    font-size: 55px;
+}
+
+#hero-section button {
+    display: flex;
+    flex-direction: row;
+    background-color: var(--primary);
+    align-items: center;
+    font-size: 24px;
+    color: var(--black);
+    margin-top: 35px;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+#hero-section button img {
+    margin-left: 10px;
+    margin-top: 1px;
 }
